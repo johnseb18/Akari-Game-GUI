@@ -1,0 +1,203 @@
+
+.button:disabled {
+    -fx-opacity: 1.0; /* removes dimming */
+}
+
+
+.top-pane {
+    -fx-padding: 10 0 0 0; /* padding: top 20px, right 0px, bottom 0px, left 0px */
+    -fx-alignment: center;
+}
+
+
+
+ .grid-pane {
+     -fx-hgap: 5px;
+     -fx-vgap: 5px;
+     -fx-padding: 10px;
+     -fx-alignment: center;
+     -fx-background-color: #f5f5f5;
+     -fx-border-color: #dcdcdc;
+     -fx-border-width: 2px;
+     -fx-border-radius: 5px;
+ }
+
+ .clue-cell {
+     -fx-font-size: 16px;
+     -fx-font-weight: bold;
+     -fx-min-width: 40px;
+     -fx-min-height: 40px;
+     -fx-text-fill: #ffffff;
+     -fx-background-color: #3b3b3b;
+     -fx-alignment: center;
+     -fx-border-color: #666666;
+     -fx-border-width: 2px;
+     -fx-border-radius: 3px;
+     -fx-padding: 5px;
+ }
+
+ .satisfied-clue-cell {
+     -fx-font-size: 16px;
+     -fx-font-weight: bold;
+     -fx-min-width: 40px;
+     -fx-min-height: 40px;
+     -fx-text-fill: #1fd655;
+     -fx-background-color: #3b3b3b;
+     -fx-alignment: center;
+     -fx-border-color: #666666;
+     -fx-border-width: 2px;
+     -fx-border-radius: 3px;
+     -fx-padding: 5px;
+ }
+
+ .wall-cell {
+     -fx-background-color: #3b3b3b;
+     -fx-border-color: #666666;
+     -fx-border-width: 2px;
+     -fx-border-radius: 3px;
+     -fx-min-width: 40px;
+     -fx-min-height: 40px;
+     -fx-cursor: default;
+ }
+
+
+
+ .lamp-cell {
+     /*-fx-background-color: #ffff9f;*/
+     -fx-background-color: #fdfa72;
+
+     -fx-border-color: #ffdf00;
+     -fx-border-width: 2px;
+     -fx-border-radius: 3px;
+     -fx-min-width: 40px;
+     -fx-min-height: 40px;
+     -fx-cursor: pointer;
+ }
+
+ .illegal-lamp-cell {
+     -fx-background-color: #fdfa72;
+     -fx-border-color: red;
+     -fx-border-width: 2px;
+     -fx-border-radius: 3px;
+     -fx-min-width: 40px;
+     -fx-min-height: 40px;
+     -fx-cursor: pointer;
+ }
+
+ .lit-cell {
+     -fx-background-color: #ffffcc;
+     -fx-border-color: #cccc99;
+     -fx-border-width: 2px;
+     -fx-border-radius: 3px;
+     -fx-min-width: 40px;
+     -fx-min-height: 40px;
+     -fx-cursor: pointer;
+ }
+
+ .unlit-cell {
+     -fx-background-color: #ffffff;
+     -fx-border-color: #cccccc;
+     -fx-border-width: 2px;
+     -fx-border-radius: 3px;
+     -fx-min-width: 40px;
+     -fx-min-height: 40px;
+     -fx-cursor: pointer;
+ }
+
+
+
+
+/* ControlView Stuff */
+
+.navigation-box {
+    alignment: center;
+    -fx-padding: 0 0 20px 0;
+    -fx-spacing: 10px;
+    -fx-padding: 10px;
+}
+
+.control-button {
+    /*-fx-padding: 5px 10px;
+    -fx-font-size: 14px;*/
+
+
+    -fx-padding: 8px 16px;
+    -fx-font-size: 15px;
+    -fx-min-width: 75px;
+    -fx-min-height: 30px
+}
+
+.reset-button {
+    -fx-padding: 8px 16px;
+    -fx-font-size: 15px;
+    -fx-min-width: 75px;
+    -fx-min-height: 30px;
+    -fx-background-color: #ff6666;
+    -fx-text-fill: white;
+}
+
+.random-button {
+    -fx-padding: 8px 16px;
+    -fx-font-size: 15px;
+    -fx-min-width: 75px;
+    -fx-min-height: 30px;
+    -fx-background-color: #05998c;
+    /*-fx-background-color: #007bff;*/
+    -fx-text-fill: white;
+}
+
+.puzzle-info {
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+    -fx-alignment: center;
+}
+
+
+
+
+
+/* MessageView */
+.message-pane {
+    -fx-alignment: center;
+    -fx-padding: 10px;
+    -fx-background-color: #f0f0f0;
+    -fx-border-color: #cccccc;
+    -fx-border-width: 2px;
+    -fx-border-radius: 5px;
+}
+
+.message-label {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}
+
+.success-message {
+    -fx-text-fill: #28a745;
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+    -fx-text-alignment: center;
+}
+
+.progress-message {
+    -fx-text-fill: #007bff;
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+    -fx-text-alignment: center;
+}
+
+
+.puzzle-container {
+    -fx-alignment: center;
+    -fx-padding: 10px;
+}
+
+.navigation-box {
+    -fx-alignment: center;
+    -fx-spacing: 140px;
+    -fx-padding: 10px;
+}
+
+
